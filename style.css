@@ -1,0 +1,96 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background: #0578b7;
+	margin: 0 0;
+}
+
+footer{
+	padding: 10px;
+	background: linear-gradient(#0578b7, #151515);
+}
+
+h3{
+	color: #0578b7;
+}
+
+.cabecalho{
+	background: linear-gradient(#151515, #0578b7);
+	padding: 35px;
+}
+
+.menu-navegacao li{
+	display: inline-block;
+	padding: 0 65px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.link{
+	text-decoration: none;
+	color: #fff;
+	transition: 1s all;
+}
+
+.link:hover{
+	font-size: 25px;
+	background: #151515;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	transform: scale(1.05);
+}
+
+.presentation{
+	background: #303030;
+	color: #000;
+	padding: 5px 0px 45px 10px;
+}
+
+.presentation h2{
+	color: #0578b7;
+	padding: 0 0 0 380px;
+}
+
+.presentation p{
+	color: #fff;
+	padding: 0 0 0 830px;
+	width: 250px;
+}
+
+.skills{
+	margin: -100px 0 0 330px;
+	color: #fff;
+}
+
+.skills li{
+	display: block;
+}
+
+.diferentials{
+	margin: -115px 0 0 680px;
+	color: #fff;
+}
+
+.diferentials li{
+	display: block;
+}
+
+.itens-diferenciais:before, .skills li:before{
+	content: "🟊 ";
+}
+
+.minha-imagem{
+	border: none;
+	border-radius: 120px;
+	width: 250px;
+	height: 250px;
+	margin: -240px 0 0 530px;
+	float: center;
+}
+
+.copyright{
+	margin-top: 51px;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+}
