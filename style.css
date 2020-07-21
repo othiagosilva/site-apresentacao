@@ -1,16 +1,18 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 	background: #0578b7;
-	margin: 0 0;
 }
 
 footer{
-	padding: 10px;
+	width: auto;
+	height: 48px;
+	padding: 13px 0 0 0;
 	background: linear-gradient(#0578b7, #151515);
 }
 
 h3{
 	color: #0578b7;
+	font-weight: bold;
 }
 
 .cabecalho{
@@ -19,30 +21,28 @@ h3{
 }
 
 .cabecalho p{
+	width: 100px;
+	height: 20px;
 	color: white;
 	font-size: 18px;
 	font-weight: bold;
-	padding-left: 60px;
+	padding-top: -10px;
 } 
 
-.icone-tel{
+.icone-contato{
 	float: left;
 	width: 50px;
 	height: 50px;
-	padding: -20px 0 70px 0;
-	transition: 10ms;
+	padding-left: 10px;
 }
 
-.icone-tel:hover{
+.icone-contato:hover{
 	cursor: pointer;
-	border: none;
-	border-radius: 40px;
-	background: white;
 }
 
-.menu-navegacao li{
+.menu li{
 	display: inline-block;
-	padding: 0 65px;
+	padding: 0 80px;
 	color: #fff;
 	font-weight: bold;
 }
@@ -63,24 +63,33 @@ h3{
 }
 
 .presentation{
+	width: auto;
+	height: 403px;
 	background: #303030;
 	color: #000;
-	padding: 5px 0px 45px 10px;
+	padding: 5px 0px 50px 10px;
 }
 
-.presentation h2{
+.titulo{
+	transition: 600ms;
+	font-size: 50px;
+	font-weight: bold;
 	color: #0578b7;
-	padding: 0 0 0 380px;
+	padding: 0 0 0 450px;
 }
 
 .presentation p{
+	transition: 700ms;
+	font-size:20px ;
 	color: #fff;
-	padding: 0 0 0 830px;
-	width: 250px;
+	padding: 0px 0 0 800px;
+	width: 300px;
 }
 
 .skills{
-	margin: -100px 0 0 330px;
+	transition: 800ms;
+	font-size: 20px;
+	margin: -50px 0 0 800px;
 	color: #fff;
 }
 
@@ -89,7 +98,9 @@ h3{
 }
 
 .diferentials{
-	margin: -115px 0 0 680px;
+	transition: 900ms;
+	margin: -80px 0 0 370px;
+	font-size: 20px;
 	color: #fff;
 }
 
@@ -101,17 +112,33 @@ h3{
 	content: "🟊 ";
 }
 
-.minha-imagem{
-	border: none;
-	border-radius: 120px;
+.imagem-cerebro{
+	transition: 950ms;
+	float: left;
 	width: 250px;
-	height: 250px;
-	margin: -240px 0 0 530px;
+	height: 200px;
+	margin: -150px 0 0 180px;
+}
+
+.imagem-headphone{
+	transition: 500ms;
+	float: right;
+	width: 150px;
+	height: 150px;
+	margin: 0 120px 0 0;
+}
+
+.minha-imagem{
+	transition: 500ms;
 	float: center;
+	border: none;
+	border-radius: 145px;
+	width: 300px;
+	height: 300px;
+	margin: -160px 0 0 50px;
 }
 
 .copyright{
-	margin-top: 51px;
 	text-align: center;
 	font-size: 20px;
 	color: #fff;
