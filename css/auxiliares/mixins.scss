@@ -1,0 +1,12 @@
+@mixin animacao($tempo){
+	-webkit-opacity: $opacidade;
+	-webkit-transition: $tempo;
+	opacity: $opacidade;
+	transition: $tempo;
+}
+
+@mixin borda{
+	border: 1px solid $cor-borda;
+	border-radius: 15px;
+	padding:5px;
+}

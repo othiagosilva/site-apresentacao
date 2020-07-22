@@ -1,0 +1,19 @@
+/*Lista de skill*/
+.skills {
+	@include animacao(800ms);
+	@include borda;
+	position: absolute;
+	right: 360px;
+	top: 380px;
+	font-size: $tamanho-fonte-padrao;
+	color: $cor-textos;
+
+	li {
+		display: block;
+		padding: 2px;
+
+		&:before {
+			content: "🟊 ";
+		}
+	}
+}

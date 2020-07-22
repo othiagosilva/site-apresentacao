@@ -1,0 +1,47 @@
+/*Imagens*/
+.imagem-cerebro {
+	@include animacao(950ms);
+	position: absolute;
+	top: 150px;
+	left: 200px;
+	width: 250px;
+	height: 200px;
+}
+
+.imagem-headphone {
+	@include animacao(500ms);
+	position: absolute;
+	right: 70px;
+	top: 350px;
+	width: 150px;
+	height: 150px;
+}
+
+.minha-imagem {
+	@include animacao(500ms);
+	box-shadow: -10px 2px 6px 4px rgba(0, 0, 0, 0.3);
+	float: center;
+	border: none;
+	border-radius: 145px;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 500px;
+	top: 170px;
+}
+
+.instagram {
+	position: absolute;
+	margin-top: -12px;
+	bottom: 12px;
+	right: 525px;
+	width: 50px;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.mostra-item {
+	opacity: 100%;
+}

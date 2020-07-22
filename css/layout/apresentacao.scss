@@ -1,0 +1,26 @@
+/*Apresentação*/
+.presentation {
+	height: 403px;
+	background: #303030;
+	padding: 5px 0px 50px 10px;
+}
+
+.apresentacao {
+		@include animacao(700ms);
+		font-size:$tamanho-fonte-padrao ;
+		color: $cor-textos;
+		position: absolute;
+		right: 230px;
+		top: 170px;
+		width: 300px;
+		@include borda;
+	}
+
+.titulo {
+	@include animacao(600ms);
+	color: $cor-textos;
+	font-size: 50px;
+	font-weight: bold;
+	position: absolute;
+	left: 520px;
+}

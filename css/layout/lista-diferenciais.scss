@@ -1,0 +1,19 @@
+/*Lista Diferenciais*/
+.diferentials{
+	@include animacao(900ms);
+	@include borda;
+	position: absolute;
+	top: 450px;
+	left: 280px;
+	font-size: $tamanho-fonte-padrao;
+	color: $cor-textos;
+
+	li {
+		padding: 2px;
+		display: block;
+	}
+}
+
+.itens-diferenciais:before{
+	content: "🟊 ";
+}
