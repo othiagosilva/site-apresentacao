@@ -1,3 +1,3 @@
 # site-apresentacao
-Esse site foi feito para demonstrar  minhas habilidades em HTML5/CSS3.
+Esse site foi feito para demonstrar  minhas habilidades em desenvolvimento Front End.
 O navegador utilizado durante o desenvolvimento foi o Google Chrome.
