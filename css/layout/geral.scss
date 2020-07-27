@@ -1,16 +1,5 @@
 /*Geral*/
 body{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	background: $cor-padrao;
-}
-
-footer{
-	height: 48px;
-	padding: 13px 0 0 0;
-	background: linear-gradient(to bottom right, $cor-padrao, $cor-degrade);
-}
-
-h3{
-	color: $cor-titulos;
-	font-weight: bold;
 }
