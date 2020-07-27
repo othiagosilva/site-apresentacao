@@ -1,3 +1,4 @@
+//Esse arquivo não está mais sendo utilizado no site
 var minhaImagem = document.querySelector(".minha-imagem");
 setTimeout(function(){
 	minhaImagem.classList.add("mostra-item");
