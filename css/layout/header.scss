@@ -1,51 +1,48 @@
 /*Header*/
 .cabecalho{
-	background: linear-gradient(to bottom right, $cor-degrade, $cor-padrao);
-	padding: 35px;
-
-	p {
-		width: 20px;
-		height: 20px;
-		color: $cor-textos;
-		font-size: 1.2em;
-		font-weight: bold;
-		position: absolute;
-		top: 63px;
-	}
+	background: $cor-padrao;
+	height: 2em;
+	padding: 1em auto;
+	border-bottom: .25em solid #040504 ;
 }
 
-.icone-contato{
-	position: absolute;
-	top: 10px;
-	left: 45px;
-	width: 50px;
-	height: 50px;
-
-	&:hover{
-		background: white;
-		border: none;
-		border-radius: 30px;
-		cursor: pointer;
-	}
+.logo {
+	color: rgba(0, 0, 0, 0.8);
+	padding-top: 0; 
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Patrick Hand SC', cursive;
 }
 
-.menu li{
-	display: inline-block;
-	padding: 0 80px;
-	color: $cor-textos;
-	font-weight: bold;
+.menu{ 
+	position: fixed;
+	left: 0;
+	top: 5em;
+	height: 3.3em;
 }
 
-.link{
+.item-menu {
+	margin: .6em .5em;
+}
+
+.link {
 	text-decoration: none;
-	color: $cor-textos;
-	transition: 1s;
+}
 
-	&:hover{
-		font-size: 25px;
-		background: $cor-degrade;
-		color: $cor-textos;
-		border: none;
-		border-radius: 10px;
-	}
+.link:hover{
+	width: 4em;
+	height: 4em;
+	cursor: pointer;
+	transition: all 200ms ease-out;
+}
+
+.whatsapp, .instagram, .linkedin, .github {
+	width: 2em;
+	height: 2em;
+	border: none;
+	border-radius: 100%;
+}
+
+.github {
+	background: #fff;
 }
