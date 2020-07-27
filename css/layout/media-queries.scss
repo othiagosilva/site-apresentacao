@@ -1,0 +1,194 @@
+@media screen and (min-width: 0px) and (max-width: 480px) {
+
+	.menu {
+		width: 98%;
+		position: fixed;
+		right: 0;
+		height: 4em;
+	}
+
+	.whatsapp, .instagram, .linkedin, .github {
+		width: 3em;
+		height: 3em;
+	}
+
+	.container {
+		height: 43em;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.apresentacao {
+		display: flex;
+		flex-direction: column;
+		margin-left: 3em;
+	}
+
+	.foto-e-texto {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 2em;
+	}
+
+	.imagem-apresentacao {
+		width: 60%;
+		height: 60%;
+		margin: 0 0 1em 0; 
+	}
+
+	.titulo-apresentacao {
+		font-size: 2.5em;
+	}
+
+	.texto-apresentacao {
+		font-size: 1.3em; ;
+		color: $cor-textos;
+		width: 90%;
+		height: auto;
+		margin: 0 0 3em 1em;
+	}
+
+	.skills {
+		font-size: 1.2em;
+		margin: 0 0 2em 3.5em;
+	}
+
+	.diferenciais {
+		font-size: 1.2em;
+		margin: 0 0 .8em 3.5em;
+	}
+
+	.copyright {
+		width: 100%;
+		padding: 0.5em 0 0 0;
+		height: 2em;
+		font-size: 1em;
+		font-weight: bold;
+	}
+}
+
+@media screen and (min-width: 480px) {
+
+	.cabecalho {
+		font-size: 1.5em;
+	}
+
+	.menu {
+		top: 0;
+	}
+
+	.whatsapp, .instagram, .linkedin, .github {
+		width: 3em;
+		height: 3em;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		height: 80em;
+		width: 100%;
+	}
+
+	.titulo-apresentacao {
+		font-size: 3.5em;
+		margin-left: 2em;
+	}
+
+	.imagem-apresentacao {
+		width: 70%;
+		height: 40%;
+		margin: 0 0 2em 0;
+	}
+
+	.texto-apresentacao {
+		font-size: 1.5em;
+		height: 40%;
+		margin: 0 0 2em 0;
+	}
+
+	.foto-e-texto {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+
+	.apresentacao {
+		font-size: 1.5em; ;
+	}
+
+	.skills {
+		font-size: 2em;
+		margin: 0 0 2em .5em;
+		width: 97%;
+	}
+
+	.diferenciais {
+		font-size: 2em;
+		margin: 0 0 0 .5em;
+		width: 97%;
+	}
+
+	.copyright {
+		font-size: 1.5em;
+		height: 1em;
+	}
+}
+
+@media screen and (min-width: 900px){
+
+	.cabecalho {
+		font-size: 1.5em;
+		height: 5em;
+	}
+
+.whatsapp, .instagram, .linkedin, .github {
+		width: 4em;
+		height: 4em;
+	}
+
+	.container {
+		height: 90em;
+	}
+
+	.texto-cabecalho:nth-child(2){ 
+		display: initial;
+	}
+
+	.imagem-apresentacao {
+		width: 50%;
+	}
+
+	.titulo-apresentacao {
+		font-size: 5em;
+		margin-left: 1.5em; 
+	}
+
+	.apresentacao {
+		padding: .1;
+		font-size: 1.7em; ;
+	}
+
+	.skills {
+		font-size: 2.5em;
+	}
+
+	.diferenciais {
+		font-size: 2.5em;
+	}
+
+	.copyright {
+		font-size: 2em;
+		height: 1em;
+	}
+}
+
+@media screen and (min-width: 1260px) {
+	@import "geral";
+	@import "header";
+	@import "apresentacao";
+	@import "lista-skills";
+	@import "lista-diferenciais";
+	@import "footer";
+}
