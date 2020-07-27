@@ -1,26 +1,55 @@
 /*Apresentação*/
-.presentation {
-	height: 403px;
-	background: #303030;
-	padding: 5px 0px 50px 10px;
+.container {
+	height: calc(100vh - 3em);
+	background: #D4D4D4;
+	padding-top: 2.5em;
+	display: grid;
+	grid-template-columns: 33.3% 33.3% 33.3%;
+	grid-template-rows: 33.3% 33.3% 33.3%;
 }
 
 .apresentacao {
-		@include animacao(700ms);
-		font-size:$tamanho-fonte-padrao ;
-		color: $cor-textos;
-		position: absolute;
-		right: 230px;
-		top: 170px;
-		width: 300px;
-		@include borda;
-	}
+	grid-column: 2 / 4;
+	grid-row: 1 / 3;
+}
 
-.titulo {
-	@include animacao(600ms);
+.titulo-apresentacao {
 	color: $cor-textos;
-	font-size: 50px;
+	font-family: 'Bad Script', cursive;
+	font-size: 2.5em;
+	margin: 0 0 .5em 1.2em;
+}
+
+.texto-apresentacao {
+	border-left: 0.0125px solid rgba(0, 0, 0, 0.25); 
+	padding-left: .5em; 
+	font-size: 1em;
+	color: $cor-textos;
+	margin-left: 1em;
+	height: 3em;	
+}
+
+.imagem-apresentacao {
+	order: -1;
+	border: none;
+	border-radius: 100%;
+	margin: 0;
+	width: 40%;
+	height: 40%;
+}
+
+.foto-e-texto {
+	margin: 0 0 0 1.5em;
+	padding: 0 1em 0 0;
+	display: flex;
+	flex-direction: row;
+}
+
+.subtitulo{
+	color: $cor-subtitulos;
 	font-weight: bold;
-	position: absolute;
-	left: 520px;
+}
+
+.mostra-item {
+	opacity: 100%;
 }
