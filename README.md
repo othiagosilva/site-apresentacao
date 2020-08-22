@@ -1,3 +1,4 @@
 # site-apresentacao
-Esse site foi desenvolvido para demonstrar minhas habilidades em desenvolvimento Front End.
-O navegador utilizado durante o desenvolvimento foi o Google Chrome.
+Site desenvolvido para aprimoramento de habilidades em desenvolvimento front end.
+
+O objetivo do site é servir como cartão de visitas, mostrando uma foto do desenvolvedor - o programador que desenvolveu o site -, uma breve apresentação, habilidades e diferenciais do mesmo.
